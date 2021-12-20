@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+main{
+  width: 100%;
+}
+#sup{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background: #DCDEE0;
+  line-height: 40px;
+}
+#sup span{
+  text-decoration:underline;
+}
+#header{
+  width: 80%;
+  margin: 0px auto;
+
+}
+.datos{
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.logofoto{
+  display: flex;
+  justify-content: center;
+  background: #C3EEFF;
+  width: 100%;
+  margin: 0px auto;
+}
+.logofoto img{
+  width: 80%;
+
+}
+.imglog{
+  display: flex;
+}
+.imglog img{
+  height: 40px;
+  margin-top: 9px;
+
+}
+.container1{
+  background: #FFDDCC;
+}
+.container{
+  width: 80%;
+  height: auto;
+  height: 200px;
+  margin: 0px auto;
+}
+.areas{
+  width: 50%;
+  margin: 0px auto;
+}
+.area{
+  color: white;
+  border-radius: 10px;
+  width: 143px;
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+  height: 80px;
+}
+.area1{
+  background-color: #F0373E;
+}
+.area2{
+  background: #657CBF;
+}
+.area3{
+  background: #9ACC60;
+}
+.container .msg{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.container .areas{
+  display: flex;
+  justify-content:space-between;
+}
+.under{
+  width: 100%;
+  margin: 0px auto;
+}
+.under2{
+  width: 80%;
+  margin: 0px auto;
+  margin-bottom: 75px;
+}
+.titleunder{
+  text-align: center;
+font-size: 28px;
+margin-top: 30px;
+}
+.options{
+  width: 46%;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+.option{
+  font-weight: bold;
+}
+.option2{
+  width: 100%;
+  margin-left: 10px;
+}
+.oracion{
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 23px;
+}
+.blue{
+  width: 30px;
+  background: #BFBFBF;
+  height: 25px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.lastboton{
+  width: 100%;
+  display: flex;
+}
+.lastboton input{
+  margin: 0px auto;
+  background: #FF9717;
+  border: none;
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.note{
+  width: 29%;
+  margin: 0px auto;
+  text-align: center;
+}
+@media only screen and (max-width:670px) {
+  .logofoto img{
+    width: 100%;
+  }
+  .container{
+    height: 390px;
+  }
+  .areas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center!important;
+  }
+  .area{
+    width: 312px;
+  }
+  .option{
+    font-size: 14px;
+    margin-right: none;
+  }
+  .option2{
+    font-size: 12px;
+    margin-left: none;
+  }
+  .lastboton input{
+    width: 215px;
+  }
+
+}
+@media only screen and (max-width:504px) {
+  #header .datos{
+    font-size: 10px;
+  }
+  .msg{
+    font-size: 13px!important;
+    padding-top: 10px;
+  }
+  .container{
+    height: 490px;
+  }
+  .titleunder{
+    font-size: 16px;
+  }
+  .option{
+    font-size: 8px;
+  }
+  .option2{
+    font-size: 9px;
+  }
+
+}
